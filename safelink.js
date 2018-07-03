@@ -19,14 +19,12 @@ var a_to_ve="";var a_to_vf=new Array();var a_to_vg=0;a_to_ve=document.getElement
 j++;}
 if(a_to_vh==false)
 {var encryptedUrl=Base64.encode(a_to_vi);
-var x=Math.floor((Math.random()*6)+ 1);
+var x=Math.floor((Math.random()*4)+ 1);
 var xxx=null;
-if(x=="1"){xxx="free-sketchup-material.html"}
-if(x=="2"){xxx="free-sketchup-model.html"}
-if(x=="3"){xxx="free-sketchup-visopt.html"}
-if(x=="4"){xxx="sketchup-tutorial.html"}
-if(x=="5"){xxx="v-ray-tutorial-exterior.html"}
-if(x=="6"){xxx="v-ray-interior-tutorial.html"}a_to_ve[i].href="https://shortsafelink.blogspot.com/2018/07/"+xxx+"?url="+ encryptedUrl;a_to_ve[i].rel="nofollow";a_to_vb++;a_to_vc+=i+":::"+ a_to_ve[i].href+"\n";}}
+if(x=="1"){xxx="the-importance-of-living-healthy.html"}
+if(x=="2"){xxx="a-short-healthy-eating-guide-for.html"}
+if(x=="3"){xxx="promote-healthy-diet-for-your-children.html"}
+if(x=="4"){xxx="the-cost-of-healthy-dieting.html"}a_to_ve[i].href="https://encrypt-safelink.blogspot.com/2018/07/"+xxx+"?url="+ encryptedUrl;a_to_ve[i].rel="nofollow";a_to_vb++;a_to_vc+=i+":::"+ a_to_ve[i].href+"\n";}}
 var a_to_vj=document.getElementById("anonyminized");var a_to_vk=document.getElementById("found_links");if(a_to_vj)
 {a_to_vj.innerHTML+=a_to_vb;}
 if(a_to_vk)
